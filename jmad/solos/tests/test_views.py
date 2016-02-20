@@ -16,3 +16,4 @@ class IndexViewTestCase(TestCase):
         with self.assertTemplateUsed('solos/index.html'):
             response = index(request)
             self.assertEqual(response.status_code, 200)
+        #
